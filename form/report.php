@@ -13,7 +13,7 @@
     echo ' and were gone for ' . $how_long . '<br/>';
     echo 'Número de aliens: ' . $how_many . '<br/>';
     echo 'Describe them: ' . $alien_description . '<br/>';
-    echo 'Oque eles fizeram ?' . $what_did . '<br/>';
+    echo 'Oque eles fizeram ? ' . $what_did . '<br/>';
     echo 'Was fang there ? ' . $fang_spoted . '<br/>';
     echo 'Outros comentários' . $other_coment . '<br/>';
     echo 'Your email adress is ' . $email;
