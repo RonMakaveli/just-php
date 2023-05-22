@@ -1,7 +1,7 @@
 <?php
     $when_it_happend = $_POST['whenithappend'];
     $how_long = $_POST['howlong'];
-    $alien_description = $_POST['description'];
+    $alien_description = $_POST['aliendescription'];
     $fang_spoted = $_POST['fangspotted'];
     $email = $_POST['email'];
 
