@@ -7,7 +7,7 @@
     $fang_spoted = $_POST['fangspotted'];
     $other_coment = $_POST['other'];
     $email = $_POST['email'];
-    $name = $_POST['firstname'];
+    $name = $_POST['firstname'] . '' . $_POST['lastname'];
     $msg = "$name foi abduzido $when_it_happend onde ficou por $how_long.\n" .
     "Descrição do alien: $alien_description\n" .
     "O que eles fizeram: $what_did\n" .
