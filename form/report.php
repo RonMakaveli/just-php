@@ -7,6 +7,12 @@
     $fang_spoted = $_POST['fangspotted'];
     $other_coment = $_POST['other'];
     $email = $_POST['email'];
+    $name = $_POST['firstname'];
+    $msg = "$name foi abduzido $when_it_happend onde ficou por $how_long.\n" .
+    "Descrição do alien: $alien_description\n" .
+    "O que eles fizeram: $what_did\n" .
+    "Identificou meu mano fang: $fang_spoted\n" .
+    "Outros comentários: $other_coment"; 
 
     echo 'Thanks for submtting the form. <br/>';
     echo 'You were abducted '. $when_it_happend;
