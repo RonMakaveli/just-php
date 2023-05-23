@@ -1,4 +1,5 @@
 <?php
+    $name = $_POST['firstname'] . '' . $_POST['lastname'];
     $when_it_happend = $_POST['whenithappend'];
     $how_long = $_POST['howlong'];
     $how_many = $_POST['howmany'];
@@ -7,7 +8,6 @@
     $fang_spoted = $_POST['fangspotted'];
     $other_coment = $_POST['other'];
     $email = $_POST['email'];
-    $name = $_POST['firstname'] . '' . $_POST['lastname'];
     $msg = "$name foi abduzido $when_it_happend onde ficou por $how_long.\n" .
     "Descrição do alien: $alien_description\n" .
     "O que eles fizeram: $what_did\n" .
